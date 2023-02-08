@@ -1,0 +1,63 @@
+html {
+    background-color: azure;
+}
+
+#homepage-title {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 550px;
+}
+
+#homepage-display-btn-container {
+    position : fixed;
+    align-items: center;
+    justify-self: center;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+#homepage-search-bar {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+#homepage-display-btn {
+    display:flex;
+    margin : 0 auto;
+    background: rgb(181, 255, 181);
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#chart_div {
+    position: absolute;
+    top: 4rem;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 98%;
+    height: 90%;
+    padding: 1rem;
+}
+
+#table_div {    
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    top: 4rem;
+    left: 0;
+    padding: 1rem;
+}
+
+#pie_div {
+    position: absolute;
+    height: 90%;
+    width: 45%;
+    bottom:0;
+    right:0;
+    padding: 1rem;
+}
